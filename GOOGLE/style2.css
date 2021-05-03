@@ -371,7 +371,6 @@
 }
 
 
-
 .results .zawartosc a:hover
 {
     text-decoration: underline;
@@ -391,7 +390,7 @@ ul li::before {
     color: pink;
     font-family: arial,sans-serif;
 }
-.results .vue-cities{
+/*.results .vue-cities{
     font-family: arial,sans-serif;
     font-size:130%;
     padding-bottom: 7px;
@@ -401,4 +400,7 @@ ul li::before {
     line-height: 20px;
     font-size: 15px;
     list-style: no
+}*/
+.results .lista{
+    display: none;
 }
