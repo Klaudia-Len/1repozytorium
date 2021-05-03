@@ -1,5 +1,5 @@
 var app = new Vue({
-    el: '#app',
+   /* el: '#app',
     data: {
       googleSearch: '',
         cities: window.cities,
@@ -9,6 +9,9 @@ var app = new Vue({
       filteredCities: function() {
           let results = this.cities.filter(city => city.name.includes(this.googleSearch));
           return results.slice(0,10);
-      }
+      }*/
+   el: '#app',
+  data: {
+    googleSearch: '' 
   }
   });
